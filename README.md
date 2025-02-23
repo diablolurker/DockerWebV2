@@ -9,7 +9,7 @@ This Dockerfile contains HTML files to build a webserver image that confirms whe
 ```
  
 
-3. **Build the Docker Image:**
+2. **Build the Docker Image:**
 Navigate to the directory containing the Dockerfile and HTML files, then run:
 ```
    docker build -t my-webserver .
@@ -26,7 +26,7 @@ After building the image, you can run the container and expose a port:
 This command runs the container in detached mode (`-d`) and maps port 8080 on the host to port 80 in the container.
 
 4. **Try it Out:**
-Open a web browser and navigate to `http://localhost:8080`. If everything is working correctly, you should see the HTML page confirming that the container webserver is functioning properly.
+Open a web browser and navigate to `http://localhost:8080`. If everything is working correctly, you should see the HTML page confirming that the container webserver is running properly.
 
 5. **Stop the Container:**
 If you're done testing, you can stop the container by running:
